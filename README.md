@@ -15,9 +15,14 @@ We use the ***Harmful Behaviors*** dataset from paper "Universal and Transferabl
 
 You need to access the following LLMs via official API and get responses through specific prompts.
 
-|              Function              |  Model   |      Version       |
-| :--------------------------------: | :------: | :----------------: |
-|              Rewrite               | GPT-3.5  | gpt-3.5-turbo-0613 |
-|       Harmfulness Evaluation       | GPT-3.5  | gpt-3.5-turbo-0613 |
-| LLM's response to the nestd prompt | Claude-2 |     claude-v2      |
+|                  Function                   |  Model   |      Version       |
+| :-----------------------------------------: | :------: | :----------------: |
+|                   Rewrite                   | GPT-3.5  | gpt-3.5-turbo-0613 |
+|   Harmfulness Classification (for attack)   | GPT-3.5  | gpt-3.5-turbo-0613 |
+|     LLM's response to the nestd prompt      | Claude-2 |     claude-v2      |
+| Harmfulness Classification (for evaluation) |  GPT-4   |     gpt-4-0613     |
+
+
+
+
 
