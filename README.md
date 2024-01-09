@@ -1,6 +1,7 @@
 # ReNeLLM
 The implementation of the paper "A Wolf in Sheep’s Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily"
+<p>
+  <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/7b33de27-0967-435c-9818-98fd6b2ac306" alt="图片 1" width="35%">
+  <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/268b3505-91b5-4593-8457-37ea08c0c988" alt="图片 2" width="60%">
+</p>
 
-
-![fig_1_small](https://github.com/NJUNLP/ReNeLLM/assets/24366782/9ff3ed85-374b-4146-8686-a2500e442ae5)
-![auto_evo](https://github.com/NJUNLP/ReNeLLM/assets/24366782/2e6fe6d5-13df-4972-85d8-5d59d9cdb7e2)
