@@ -65,5 +65,13 @@ The following lists all the prompts used in the paper, and you can also find the
 ## Results
 
 <p><img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/75778daf-d43b-4992-b04e-2e2b93ea762f" alt="table filling" width="50%"></p>
+
 The ASR(Attack Success Rate) of our method consistently out-performs previous baselines. Meanwhile, Our method significantly reduces time cost, with a reduction of 82.98% compared to CGC([Zou et al., 2023](https://arxiv.org/pdf/2307.15043.pdf)) and 78.06% compared to AutoDAN-a([Liu et al., 2023](https://arxiv.org/pdf/2310.04451.pdf)).
 
+## Contact
+
+If you guys have any questions about our work, please feel free to contact us via the following email.
+
+Peng Ding: dingpeng@smail.nju.edu.cn
+
+Shujian Huang: huangsj@nju.edu.cn
