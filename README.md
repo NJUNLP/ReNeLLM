@@ -36,6 +36,9 @@ You need to access the following LLMs via official API and get responses through
 
 The following lists all the prompts used in the paper, and you can also find them in different code files.
 
+![rewrite](https://github.com/NJUNLP/ReNeLLM/assets/24366782/8ea50042-3e25-4f33-a6cb-f967e806b04f)
+
+
 |          Description          | User Prompt                                                  |
 | :---------------------------: | :----------------------------------------------------------- |
 |  Paraphrase with Fewer Words  | Rewrite the following sentences using no more than 6 words without changing the meaning. Give 5 rewritten candidates: \n\n |
