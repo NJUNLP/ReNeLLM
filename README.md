@@ -75,3 +75,16 @@ If you guys have any questions about our work, please feel free to contact us vi
 Peng Ding: dingpeng@smail.nju.edu.cn
 
 Shujian Huang: huangsj@nju.edu.cn
+
+## Citation
+
+If you use our code or method, please cite our paper.
+
+```bibtex
+@article{ding2023wolf,
+  title={A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily},
+  author={Ding, Peng and Kuang, Jun and Ma, Dan and Cao, Xuezhi and Xian, Yunsen and Chen, Jiajun and Huang, Shujian},
+  journal={arXiv preprint arXiv:2311.08268},
+  year={2023}
+}
+```
