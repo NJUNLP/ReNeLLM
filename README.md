@@ -78,7 +78,7 @@ Shujian Huang: huangsj@nju.edu.cn
 
 ## Citation
 
-If you use our code or method, please cite our paper.
+If you find this repository helpful, feel free to cite our paper:
 
 ```bibtex
 @article{ding2023wolf,
