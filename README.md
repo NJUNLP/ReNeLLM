@@ -14,6 +14,11 @@ Large Language Models (LLMs), such as ChatGPT and GPT-4, are designed to provide
   <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/268b3505-91b5-4593-8457-37ea08c0c988" alt="图片 2" width="60%">
 </p>
 
+## Updates
+- (2024/01/31) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
+- (2024/01/09) We have released a quick implementation of ReNeLLM!
+- (2023/11/14) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2311.08268)!
+
 ## Dataset
 
 We use the ***Harmful Behaviors*** dataset from paper "Universal and Transferable Adversarial Attacks on Aligned Language Models"([Zou et al., 2023](https://arxiv.org/pdf/2307.15043.pdf)), you can download the dataset from: [https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench](https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench).
