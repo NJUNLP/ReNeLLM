@@ -9,7 +9,7 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 ## Table of Contents
 - [Updates](#updates)
 - [Overview](#overview)
-- [Installation](#installation)
+- [Getting Started](#getting-started)
 - [Datasets](#datasets)
 - [Models](#models)
 - [Running](#running)
@@ -32,6 +32,9 @@ This repository shares the code of our latest work on LLMs jailbreaking/defendin
   <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/7b33de27-0967-435c-9818-98fd6b2ac306" alt="图片 1" width="35%">
   <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/268b3505-91b5-4593-8457-37ea08c0c988" alt="图片 2" width="60%">
 </p>
+
+## Getting Started
+eeeeeee
 
 ## Dataset
 
