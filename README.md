@@ -6,6 +6,21 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 ![Adversarial Attacks](https://img.shields.io/badge/Adversarial-Attacks-orange.svg?style=plastic)
 ![Large Language Models](https://img.shields.io/badge/LargeLanguage-Models-green.svg?style=plastic)
 
+## Table of Contents
+- [Updates](#updates)
+- [Abstract](#abstract)
+- [Installation](#installation)
+- [Datasets](#datasets)
+- [Models](#models)
+- [Running](#running)
+- [Release](#release)
+- [FQA](#fqa)
+
+## Updates
+- (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
+- (**2024/01/09**) We have released a quick implementation of ReNeLLM!
+- (**2023/11/14**) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2311.08268)!
+
 ## Abstract
 Large Language Models (LLMs), such as ChatGPT and GPT-4, are designed to provide useful and safe responses. However, adversarial prompts known as 'jailbreaks' can circumvent safeguards, leading LLMs to generate potentially harmful content. Exploring jailbreak prompts can help to better reveal the weaknesses of LLMs and further steer us to secure them. Unfortunately, existing jailbreak methods either suffer from intricate manual design or require optimization on other white-box models, compromising generalization or efficiency. In this paper, we generalize jailbreak prompt attacks into two aspects: (1) Prompt **Re**writing and (2) Scenario **Ne**sting. Based on this, we propose **ReNeLLM**, an automatic framework that leverages LLMs themselves to generate effective jailbreak prompts. Extensive experiments demonstrate that ReNeLLM significantly improves the attack success rate while greatly reducing the time cost compared to existing baselines. Our study also reveals the inadequacy of current defense methods in safeguarding LLMs. Finally, we analyze the failure of LLMs defense from the perspective of prompt execution priority, and propose corresponding defense strategies. We hope that our research can catalyze both the academic community and LLMs developers towards the provision of safer and more regulated LLMs. The code is available at https://github.com/NJUNLP/ReNeLLM.
 
@@ -13,11 +28,6 @@ Large Language Models (LLMs), such as ChatGPT and GPT-4, are designed to provide
   <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/7b33de27-0967-435c-9818-98fd6b2ac306" alt="图片 1" width="35%">
   <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/268b3505-91b5-4593-8457-37ea08c0c988" alt="图片 2" width="60%">
 </p>
-
-## Updates
-- (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
-- (**2024/01/09**) We have released a quick implementation of ReNeLLM!
-- (**2023/11/14**) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2311.08268)!
 
 ## Dataset
 
