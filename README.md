@@ -8,7 +8,7 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 
 ## Table of Contents
 - [Updates](#updates)
-- [Abstract](#abstract)
+- [Overview](#overview)
 - [Installation](#installation)
 - [Datasets](#datasets)
 - [Models](#models)
@@ -21,8 +21,12 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 - (**2024/01/09**) We have released a quick implementation of ReNeLLM!
 - (**2023/11/14**) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2311.08268)!
 
-## Abstract
-Large Language Models (LLMs), such as ChatGPT and GPT-4, are designed to provide useful and safe responses. However, adversarial prompts known as 'jailbreaks' can circumvent safeguards, leading LLMs to generate potentially harmful content. Exploring jailbreak prompts can help to better reveal the weaknesses of LLMs and further steer us to secure them. Unfortunately, existing jailbreak methods either suffer from intricate manual design or require optimization on other white-box models, compromising generalization or efficiency. In this paper, we generalize jailbreak prompt attacks into two aspects: (1) Prompt **Re**writing and (2) Scenario **Ne**sting. Based on this, we propose **ReNeLLM**, an automatic framework that leverages LLMs themselves to generate effective jailbreak prompts. Extensive experiments demonstrate that ReNeLLM significantly improves the attack success rate while greatly reducing the time cost compared to existing baselines. Our study also reveals the inadequacy of current defense methods in safeguarding LLMs. Finally, we analyze the failure of LLMs defense from the perspective of prompt execution priority, and propose corresponding defense strategies. We hope that our research can catalyze both the academic community and LLMs developers towards the provision of safer and more regulated LLMs. The code is available at https://github.com/NJUNLP/ReNeLLM.
+## Overview
+This repository shares the code of our latest work on LLMs jailbreaking/defending. In this work:
+
+- We introduce ReNeLLM, the first generalized jailbreak prompt attack framework for LLMs, which generalizes jailbreak prompt attacks into two aspects: prompt rewriting and scenario nesting, utilizing LLMs themselves to generate jailbreak attack prompts.
+- Extensive experiments demonstrate that ReNeLLM generates jailbreak prompts that maintain a high attack success rate with less time required. Furthermore, ReNeLLM is difficult to detect by existing defense methods and exhibits generalization and transferability on representative LLMs. Such empirical success shows alarming deficiencies in the security performance of existing LLMs.
+- We conduct an investigation into existing jailbreak defense methods and reveal their inadequacy in effectively safeguarding LLMs against generalized attacks by ReNeLLM. In addition, to investigate the reasons why LLMs fail in defense, we observe the changes in the execution priority of prompts by LLMs before and after rewriting and nesting, and design defense methods accordingly. We hope our observations can serve as valuable guidance for future LLMs vendors to develop safer and more regulated systems.
 
 <p>
   <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/7b33de27-0967-435c-9818-98fd6b2ac306" alt="图片 1" width="35%">
