@@ -34,7 +34,6 @@ This repository shares the code of our latest work on LLMs jailbreaking/defendin
 </p>
 
 ## Getting Started
-eeeeeee
 
 ## Dataset
 
