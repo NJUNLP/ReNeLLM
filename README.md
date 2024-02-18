@@ -15,9 +15,9 @@ Large Language Models (LLMs), such as ChatGPT and GPT-4, are designed to provide
 </p>
 
 ## Updates
-- (2024/01/31) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
-- (2024/01/09) We have released a quick implementation of ReNeLLM!
-- (2023/11/14) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2311.08268)!
+- (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
+- (**2024/01/09**) We have released a quick implementation of ReNeLLM!
+- (**2023/11/14**) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2311.08268)!
 
 ## Dataset
 
