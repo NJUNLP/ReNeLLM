@@ -35,6 +35,19 @@ This repository shares the code of our latest work on LLMs jailbreaking/defendin
 
 ## Getting Started
 
+1. **Clone this repository**
+```shell 
+git clone https://github.com/NJUNLP/ReNeLLM.git
+```
+
+2. **Build environment**
+```shell
+cd ReNeLLM
+conda create -n ReNeLLM python=3.9
+conda activate ReNeLLM
+pip install -r requirements.txt
+```
+
 ## Dataset
 
 We use the ***Harmful Behaviors*** dataset from paper "Universal and Transferable Adversarial Attacks on Aligned Language Models"([Zou et al., 2023](https://arxiv.org/pdf/2307.15043.pdf)), you can download the dataset from: [https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench](https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench).
