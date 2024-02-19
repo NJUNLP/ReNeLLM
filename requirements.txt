@@ -1,0 +1,5 @@
+anthropic==0.3.11
+openai==1.9.0
+tqdm==4.65.0
+torch==2.0.1
+transformers==4.34.0
