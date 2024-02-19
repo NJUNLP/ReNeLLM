@@ -40,12 +40,19 @@ This repository shares the code of our latest work on LLMs jailbreaking/defendin
 git clone https://github.com/NJUNLP/ReNeLLM.git
 ```
 
-2. **Build environment**
+2. **Build Environment**
 ```shell
 cd ReNeLLM
 conda create -n ReNeLLM python=3.9
 conda activate ReNeLLM
 pip install -r requirements.txt
+```
+
+3. **Run ReNeLLM**
+   
+ReNeLLM employs `gpt-3.5-turbo` for prompt rewriting and harmful classifier, while utilizing `claude-v2` as the model under attack. Therefore, you are required to input both of these API key parameters.
+```shell 
+python renellm.py --gpt_api_key <your openai API key> --claude_api_key <your anthropic API key>
 ```
 
 ## Dataset
