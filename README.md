@@ -10,11 +10,6 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 - [Updates](#updates)
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-- [Datasets](#datasets)
-- [Models](#models)
-- [Running](#running)
-- [Release](#release)
-- [FQA](#fqa)
 
 ## Updates
 - (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
