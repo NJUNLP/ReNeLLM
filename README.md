@@ -51,6 +51,18 @@ python renellm.py --gpt_api_key <your openai API key> --claude_api_key <your ant
 ```
 We use these two models due to their superior performance compared to open-source alternatives, as well as their lower cost in comparison with `gpt-4`. *In principle, any model could be utilized as your harmful classifier and attacked model.*
 
+4. **Get Responses**
+
+For gpt:
+```shell 
+python get_responses.py --data_path <jailbroken data path> --gpt_api_key <your open API key> --test_model <gpt-3.5-turbo, gpt-4>
+```
+
+For claude:
+```shell 
+python get_responses.py --data_path <jailbroken data path> --claude_api_key <your anthropic API key> --test_model <anthropic.claude-v1, anthropic.claude-v2>
+```
+
 ## LLMs used in the paper
 
 You need to access the following LLMs via official API and get responses through specific prompts.
