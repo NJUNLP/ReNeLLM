@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: llama
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: fairscale
+Requires-Dist: fire
+Requires-Dist: sentencepiece

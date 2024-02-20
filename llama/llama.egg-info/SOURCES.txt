@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+llama/__init__.py
+llama/generation.py
+llama/model.py
+llama/tokenizer.py
+llama.egg-info/PKG-INFO
+llama.egg-info/SOURCES.txt
+llama.egg-info/dependency_links.txt
+llama.egg-info/requires.txt
+llama.egg-info/top_level.txt
