@@ -45,10 +45,11 @@ pip install -r requirements.txt
 
 3. **Run ReNeLLM**
    
-ReNeLLM employs `gpt-3.5-turbo` for prompt rewriting and harmful classifier, while utilizing `claude-v2` as the model under attack. Therefore, you are required to input both of these API key parameters.
+ReNeLLM employs `gpt-3.5-turbo` for prompt rewriting and harmful classifier, while utilizing `claude-v2` as the model under attack. Therefore, you are required to input both of these API key parameters. 
 ```shell 
 python renellm.py --gpt_api_key <your openai API key> --claude_api_key <your anthropic API key>
 ```
+We use these two models due to their superior performance compared to open-source alternatives, as well as their lower cost in comparison with `gpt-4`. In principle, any model could be utilized as your harmful classifier and attacked model.
 
 ## Dataset
 
