@@ -7,7 +7,7 @@ def main(args):
     data = data_reader(args.data_path)
     assert(len(data) == 520)
 
-    data= data[:1] # for test
+    # data= data[:1] # for test
 
     operations = [shortenSentence, misrewriteSentence, changeOrder, addChar, languageMix, styleChange]
     scenarios = SCENARIOS
