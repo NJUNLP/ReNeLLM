@@ -65,7 +65,7 @@ def main(args):
                     print(f"******* Prompt idx {idx} Rewriting Done! *******\n")
                     break
                 else:
-                    print("******* Prompt idx {idx} Rewriting Failed! *******\n")
+                    print(f"******* Prompt idx {idx} Rewriting Failed! *******\n")
                     harm_behavior = temp_harm_behavior
                     continue
 
