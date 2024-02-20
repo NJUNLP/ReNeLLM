@@ -51,10 +51,6 @@ python renellm.py --gpt_api_key <your openai API key> --claude_api_key <your ant
 ```
 We use these two models due to their superior performance compared to open-source alternatives, as well as their lower cost in comparison with `gpt-4`. In principle, any model could be utilized as your harmful classifier and attacked model.
 
-## Dataset
-
-We use the ***Harmful Behaviors*** dataset from paper "Universal and Transferable Adversarial Attacks on Aligned Language Models"([Zou et al., 2023](https://arxiv.org/pdf/2307.15043.pdf)), you can download the dataset from: [https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench](https://github.com/llm-attacks/llm-attacks/tree/main/data/advbench).
-
 ## LLMs used in the paper
 
 You need to access the following LLMs via official API and get responses through specific prompts.
