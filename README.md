@@ -62,16 +62,6 @@ You need to access the following LLMs via official API and get responses through
 |              LLM's response to the nestd prompt              | Claude-2 |     claude-v2      |
 |         Harmfulness Classification (for evaluation)          |  GPT-4   |     gpt-4-0613     |
 
-## Code description
-
-|    Code file     |                         Description                          |
-| :--------------: | :----------------------------------------------------------: |
-|  auto_prompt.py  | Including the entire process of generating jailbreak prompts with ReNeLLM |
-|     utils.py     |                     Util functions used                      |
-|   evaluate.py    |      Used to evaluate whether a given input is harmful       |
-|  gpt_attack.py   | Conducting attacks on the GPT series of LLMs and obtaining responses |
-| claude_attack.py | Conducting attacks on the Claude series of LLMs and obtaining responses |
-
 ## Prompts used in the paper
 
 The following lists all the prompts used in the paper, and you can also find them in different code files. Please note that we set all system prompts to be empty.
