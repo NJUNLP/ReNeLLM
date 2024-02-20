@@ -20,8 +20,8 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 This repository shares the code of our latest work on LLMs jailbreaking/defending. In this work:
 
 - We introduce ReNeLLM, the first generalized jailbreak prompt attack framework for LLMs, which generalizes jailbreak prompt attacks into two aspects: prompt rewriting and scenario nesting, utilizing LLMs themselves to generate jailbreak attack prompts.
-- Extensive experiments demonstrate that ReNeLLM generates jailbreak prompts that maintain a high attack success rate with less time required. Furthermore, ReNeLLM is difficult to detect by existing defense methods and exhibits generalization and transferability on representative LLMs. Such empirical success shows alarming deficiencies in the security performance of existing LLMs.
-- We conduct an investigation into existing jailbreak defense methods and reveal their inadequacy in effectively safeguarding LLMs against generalized attacks by ReNeLLM. In addition, to investigate the reasons why LLMs fail in defense, we observe the changes in the execution priority of prompts by LLMs before and after rewriting and nesting, and design defense methods accordingly. We hope our observations can serve as valuable guidance for future LLMs vendors to develop safer and more regulated systems.
+- Extensive experiments demonstrate that ReNeLLM generates jailbreak prompts that maintain a high attack success rate with less time required. Furthermore, ReNeLLM is difficult to detect by existing defense methods and exhibits generalization and transferability on representative LLMs. 
+- To investigate the reasons why LLMs fail in defense, we observe the changes in the execution priority of prompts by LLMs before and after rewriting and nesting, and design defense methods accordingly. We hope our observations can serve as valuable guidance for future LLMs vendors to develop safer and more regulated systems.
 
 <p>
   <img src="https://github.com/NJUNLP/ReNeLLM/assets/24366782/7b33de27-0967-435c-9818-98fd6b2ac306" alt="图片 1" width="35%">
