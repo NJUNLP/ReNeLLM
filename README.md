@@ -49,7 +49,7 @@ ReNeLLM employs `gpt-3.5-turbo` for prompt rewriting and harmful classifier, whi
 ```shell 
 python renellm.py --gpt_api_key <your openai API key> --claude_api_key <your anthropic API key>
 ```
-We use these two models due to their superior performance compared to open-source alternatives, as well as their lower cost in comparison with `gpt-4`. In principle, any model could be utilized as your harmful classifier and attacked model.
+We use these two models due to their superior performance compared to open-source alternatives, as well as their lower cost in comparison with `gpt-4`. *In principle, any model could be utilized as your harmful classifier and attacked model.*
 
 ## LLMs used in the paper
 
