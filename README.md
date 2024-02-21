@@ -73,7 +73,7 @@ cd llama
 pip install -e .
 ```
 2. Follow the steps at https://github.com/facebookresearch/llama?tab=readme-ov-file#quick-start to download the llama-2-chat models.
-3. Get llama-2-chat responses using the command below
+3. Get llama-2-chat responses using the command below:
 ```shell
 bash run_chat.sh # You can set the model type and your jailbroken data path in the run_chat.sh
 ```
