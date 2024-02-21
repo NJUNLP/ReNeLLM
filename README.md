@@ -58,6 +58,7 @@ For `gpt`:
 python get_responses.py --data_path <jailbroken data path> --gpt_api_key <your open API key> --test_model <gpt-3.5-turbo, gpt-4>
 ```
 
+
 For `claude`:
 ```shell 
 python get_responses.py --data_path <jailbroken data path> --claude_api_key <your anthropic API key> --test_model <anthropic.claude-v1, anthropic.claude-v2>
