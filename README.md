@@ -107,3 +107,8 @@ If you find this work useful in your own research, please feel free to leave a s
   year={2023}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=NJUNLP/ReNeLLM&type=Date)](https://star-history.com/#NJUNLP/ReNeLLM&Date)
+
