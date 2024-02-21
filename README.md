@@ -80,6 +80,12 @@ pip install -e .
 ```shell
 bash run_chat.sh # You can set the model type and your jailbroken data path in the run_chat.sh
 ```
+
+5. **Check ASR using gpt-4**
+```shell
+python check_asr.py --data_path <llm responses data pth> --gpt_api_key <your open API key>
+```
+
 ## Contact
 
 If you have any questions about our work, please feel free to contact us via the following email:
