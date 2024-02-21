@@ -24,7 +24,7 @@ This repository shares the code of our latest work on LLMs jailbreaking/defendin
 - To investigate the reasons why LLMs fail in defense, we observe the changes in the execution priority of prompts by LLMs before and after rewriting and nesting, and design defense methods accordingly. We hope our observations can serve as valuable guidance for future LLMs vendors to develop safer and more regulated systems.
 
 <p align="center">
-  <img src="example.png" width="300"/>
+  <img src="example.png" width="400"/>
   <img src="ReNeLLM.png" width="500"/>
 </p>
 
