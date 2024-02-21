@@ -1,7 +1,14 @@
-import time, json, os
+import time
+import json
+import os
 import argparse
 import random
-from utils import *
+
+from utils.data_utils import data_reader
+from utils.llm_completion_utils import claudeCompletion
+from utils.prompt_rewrite_utils import shortenSentence, misrewriteSentence, changeOrder, addChar, languageMix, styleChange
+from utils.scenario_nest_utils import SCENARIOS
+from utils.harmful_classification_utils import harmful_classification
 
 def main(args):
     data = data_reader(args.data_path)
@@ -197,8 +204,8 @@ if __name__ == "__main__":
     parser.add_argument('--iter_max', type=int, default=20, help='max iteration times')
     parser.add_argument("--max_tokens", type=int, default=3584)
     parser.add_argument('--temperature', type=float, default=0, help='model temperature')
-    parser.add_argument('--round_sleep', type=int, default=1, help='sleep time between every round')
-    parser.add_argument('--fail_sleep', type=int, default=1, help='sleep time for fail response')
+    parser.add_argument('--round_sleep', type=int, default=2, help='sleep time between every round')
+    parser.add_argument('--fail_sleep', type=int, default=2, help='sleep time for fail response')
     parser.add_argument('--retry_times', type=int, default=1000, help='retry times when exception occurs')
     parser.add_argument('--save_suffix', type=str, default='normal')
     parser.add_argument("--gpt_api_key", required=True, type=str, default=None)
