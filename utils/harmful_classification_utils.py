@@ -9,7 +9,7 @@ def harmful_classification(args, sentence):
     user_message={"role": "user", "content": user_input}
     messages = []
 
-    print(user_input)
+    # print(user_input)
     messages.append(user_message)
 
     label = chatCompletion(args.judge_model,
