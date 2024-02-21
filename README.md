@@ -1,4 +1,5 @@
 # ReNeLLM
+
 The official implementation of our paper "[A Wolf in Sheep’s Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily](https://arxiv.org/pdf/2311.08268.pdf)".
 
 [![arXiv](https://img.shields.io/badge/cs.LG-arXiv%3A2311.08268-b31b1b)](https://arxiv.org/abs/2311.08268)
@@ -7,6 +8,7 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 ![Large Language Models](https://img.shields.io/badge/LargeLanguage-Models-green.svg?style=plastic)
 
 ## Table of Contents
+
 - [Updates](#updates)
 - [Overview](#overview)
 - [Getting Started](#getting-started)
@@ -14,11 +16,13 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 - [Citation](#citation)
 
 ## Updates
+
 - (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
 - (**2024/01/09**) We have released a quick implementation of ReNeLLM!
 - (**2023/11/14**) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2311.08268)!
 
 ## Overview
+
 This repository shares the code of our latest work on LLMs jailbreaking/defending. In this work:
 
 - We introduce ReNeLLM, the first generalized jailbreak prompt attack framework for LLMs, which generalizes jailbreak prompt attacks into two aspects: prompt rewriting and scenario nesting, utilizing LLMs themselves to generate jailbreak attack prompts.
@@ -31,6 +35,7 @@ This repository shares the code of our latest work on LLMs jailbreaking/defendin
 </p>
 
 ## Getting Started
+
 1. **Clone this repository**
 ```shell 
 git clone https://github.com/NJUNLP/ReNeLLM.git
@@ -45,6 +50,7 @@ pip install -r requirements.txt
 ```
 
 3. **Run ReNeLLM**
+   
 ReNeLLM employs `gpt-3.5-turbo` for prompt rewriting and harmful classifier, while utilizing `claude-v2` as the model under attack. Therefore, you are required to input both of these API key parameters. 
 ```shell 
 python renellm.py --gpt_api_key <your openai API key> --claude_api_key <your anthropic API key>
@@ -75,6 +81,7 @@ pip install -e .
 bash run_chat.sh # You can set the model type and your jailbroken data path in the run_chat.sh
 ```
 ## Contact
+
 If you have any questions about our work, please feel free to contact us via the following email:
 
 Peng Ding: dingpeng@smail.nju.edu.cn
@@ -82,6 +89,7 @@ Peng Ding: dingpeng@smail.nju.edu.cn
 Shujian Huang: huangsj@nju.edu.cn
 
 ## Citation
+
 If you find this work useful in your own research, please feel free to leave a star⭐️ and cite our paper:
 
 ```bibtex
