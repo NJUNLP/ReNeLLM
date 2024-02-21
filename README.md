@@ -53,17 +53,17 @@ We use these two models due to their superior performance compared to open-sourc
 
 4. **Get Responses**
 
-For gpt:
+For `gpt`:
 ```shell 
 python get_responses.py --data_path <jailbroken data path> --gpt_api_key <your open API key> --test_model <gpt-3.5-turbo, gpt-4>
 ```
 
-For claude:
+For `claude`:
 ```shell 
 python get_responses.py --data_path <jailbroken data path> --claude_api_key <your anthropic API key> --test_model <anthropic.claude-v1, anthropic.claude-v2>
 ```
 
-For llama-2-chat:
+For `llama-2-chat`:
 
 1. Build the environment
 ```shell
