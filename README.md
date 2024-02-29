@@ -101,10 +101,12 @@ Shujian Huang: huangsj@nju.edu.cn
 If you find this work useful in your own research, please feel free to leave a star⭐️ and cite our paper:
 
 ```bibtex
-@article{ding2023wolf,
-  title={A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily},
-  author={Ding, Peng and Kuang, Jun and Ma, Dan and Cao, Xuezhi and Xian, Yunsen and Chen, Jiajun and Huang, Shujian},
-  journal={arXiv preprint arXiv:2311.08268},
-  year={2023}
+@misc{ding2023wolf,
+      title={A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily}, 
+      author={Peng Ding and Jun Kuang and Dan Ma and Xuezhi Cao and Yunsen Xian and Jiajun Chen and Shujian Huang},
+      year={2023},
+      eprint={2311.08268},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
