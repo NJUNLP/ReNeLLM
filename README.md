@@ -37,12 +37,12 @@ This repository shares the code of our latest work on LLMs jailbreaking/defendin
 
 ## Getting Started
 
-1. **Clone this repository**
+**1. Clone this repository**
 ```shell 
 git clone https://github.com/NJUNLP/ReNeLLM.git
 ```
 
-2. **Build Environment**
+**2. Build Environment**
 ```shell
 cd ReNeLLM
 conda create -n ReNeLLM python=3.9
@@ -50,7 +50,7 @@ conda activate ReNeLLM
 pip install -r requirements.txt
 ```
 
-3. **Run ReNeLLM**
+**3. Run ReNeLLM**
    
 ReNeLLM employs `gpt-3.5-turbo` for prompt rewriting and harmful classifier, while utilizing `claude-v2` as the model under attack. Therefore, you are required to input both of these API key parameters. 
 ```shell 
@@ -58,7 +58,7 @@ python renellm.py --gpt_api_key <your openai API key> --claude_api_key <your ant
 ```
 We use these two models due to their superior performance compared to open-source alternatives, as well as their lower cost in comparison with `gpt-4`. *In principle, any model could be utilized as your harmful classifier and attacked model.*
 
-4. **Get Responses**
+**4. Get Responses**
    
 For `gpt`:
 ```shell 
@@ -83,7 +83,7 @@ pip install -e .
 bash run_chat.sh # You can set the model type and your jailbroken data path in the run_chat.sh
 ```
 
-5. **Check ASR using gpt-4**
+**5. Check ASR using gpt-4**
 ```shell
 python check_asr.py --data_path <your llm responses data path> --gpt_api_key <your open API key>
 ```
