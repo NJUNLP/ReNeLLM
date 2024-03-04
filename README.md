@@ -67,7 +67,7 @@ python get_responses.py --data_path <jailbroken data path> --gpt_api_key <your o
 
 For `claude`:
 ```shell 
-python get_responses.py --data_path <jailbroken data path> --claude_api_key <your anthropic API key> --test_model <anthropic.claude-v1, anthropic.claude-v2>
+python get_responses.py --data_path <jailbroken data path> --claude_api_key <your anthropic API key> --test_model <claude-instant-1, claude-2>
 ```
 
 For `llama-2-chat`:
