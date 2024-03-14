@@ -2,7 +2,7 @@
 
 The official implementation of our NAACL 2024 paper "[A Wolf in Sheep’s Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily](https://arxiv.org/pdf/2311.08268.pdf)".
 
-[![arXiv](https://img.shields.io/badge/cs.LG-arXiv%3A2311.08268-b31b1b)](https://arxiv.org/abs/2311.08268)
+![NAACL 2024](https://img.shields.io/badge/NAACL-2024-blue.svg?style=plastic)
 ![Jailbreak Attacks](https://img.shields.io/badge/Jailbreak-Attacks-yellow.svg?style=plastic)
 ![Adversarial Attacks](https://img.shields.io/badge/Adversarial-Attacks-orange.svg?style=plastic)
 ![Large Language Models](https://img.shields.io/badge/LargeLanguage-Models-green.svg?style=plastic)
