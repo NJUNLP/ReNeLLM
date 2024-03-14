@@ -1,6 +1,6 @@
 # ReNeLLM
 
-The official implementation of our paper "[A Wolf in Sheep’s Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily](https://arxiv.org/pdf/2311.08268.pdf)".
+The official implementation of our NAACL 2024 paper "[A Wolf in Sheep’s Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily](https://arxiv.org/pdf/2311.08268.pdf)".
 
 [![arXiv](https://img.shields.io/badge/cs.LG-arXiv%3A2311.08268-b31b1b)](https://arxiv.org/abs/2311.08268)
 ![Jailbreak Attacks](https://img.shields.io/badge/Jailbreak-Attacks-yellow.svg?style=plastic)
@@ -17,6 +17,7 @@ The official implementation of our paper "[A Wolf in Sheep’s Clothing: General
 
 ## Updates
 
+- (**2024/03/14**) ReNeLLM is acccepted by NAACL 2024! Thanks to all collaborators！
 - (**2024/02/21**) We have updated our codebase to make it more readable and easier to use. We will continue to update the codebase and support more LLMs. Stay tuned!
 - (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
 - (**2024/01/09**) We have released a quick implementation of ReNeLLM!
