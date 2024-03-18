@@ -17,7 +17,7 @@ The official implementation of our NAACL 2024 paper "[A Wolf in Sheep’s Clothi
 
 ## Updates
 
-- (**2024/03/14**) 🔥🔥🔥 ReNeLLM is acccepted by NAACL 2024! Thanks to all collaborators！
+- (**2024/03/14**) 🔥🔥🔥 ReNeLLM is acccepted by NAACL 2024(main conference)! Thanks to all collaborators！
 - (**2024/02/21**) We have updated our codebase to make it more readable and easier to use. We will continue to update the codebase and support more LLMs. Stay tuned!
 - (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
 - (**2024/01/09**) We have released a quick implementation of ReNeLLM!
