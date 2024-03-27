@@ -12,8 +12,6 @@ The official implementation of our NAACL 2024 paper "[A Wolf in Sheep’s Clothi
 - [Updates](#updates)
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-- [Contact](#contact)
-- [Citation](#citation)
 
 ## Updates
 
