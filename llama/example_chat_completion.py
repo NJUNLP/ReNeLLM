@@ -24,6 +24,7 @@ def main(
     tokenizer_path: str,
     data_path: str,
     save_suffix: str = 'normal',
+    baseline: str = 'renellm',
     # temperature: float = 0.6,
     temperature: float = 0,
     top_p: float = 0.9,
@@ -39,6 +40,9 @@ def main(
     )
 
     data = jailbroken_data_reader(data_path)
+
+    # data = data[:1] # for test
+
     data_list = []
 
     system_prompt = ""
@@ -77,10 +81,13 @@ def main(
         item_new = {}
         item_new['idx']  = idx
         item_new['original_harm_behavior']  = item['original_harm_behavior']
-        item_new['rewritten_prompt']  = item['rewritten_prompt']
+        # item_new['rewritten_prompt']  = item['rewritten_prompt']
+
         item_new['nested_prompt']  = item['nested_prompt']
+        item_new['baseline']  = baseline
         item_new['test_model'] = ckpt_dir[:-1]
         item_new['model_output'] = model_output
+
 
         data_list.append(item_new)
 
@@ -89,7 +96,8 @@ def main(
     # save the responses
     if not os.path.exists('../results/responses'):
         os.makedirs('../results/responses')
-    file_name = f"../results/responses/responses_of_{ckpt_dir[:-1]}_{save_suffix}.json"
+    # file_name = f"../results/responses/responses_of_{ckpt_dir[:-1]}_{save_suffix}.json"
+    file_name = f"../results/responses/responses_of_{baseline}_on_{ckpt_dir[:-1]}_{save_suffix}.json"
         
     with open(file_name, "w", encoding="utf-8") as f:
             json.dump(data_list, f, ensure_ascii=False, indent=4)
