@@ -17,7 +17,7 @@ The official implementation of our NAACL 2024 paper "[A Wolf in Sheep’s Clothi
 
 ## Updates
 
-- (**2024/03/14**) We have released the experimental results of ReNeLLM and other baselines (CGC, AutoDAN, and PAIR), including jailbreak prompts, LLMs responses, ASR evaluations, etc. This data is available for use with the aim of enhancing the security of LLMs. You can download them from the following link: [ReNeLLM Results](https://drive.google.com/drive/folders/1wgohHwO0mTgu0KHACHDuYiV0dbNQ0a3H)
+- (**2024/03/27**) We have released the experimental results of ReNeLLM and other baselines (CGC, AutoDAN, and PAIR), including jailbreak prompts, LLMs responses, ASR evaluations, etc. This data is available for use with the aim of enhancing the security of LLMs. You can download them from the following link: [ReNeLLM Results](https://drive.google.com/drive/folders/1wgohHwO0mTgu0KHACHDuYiV0dbNQ0a3H)
 - (**2024/03/14**) 🔥🔥🔥 ReNeLLM is acccepted by NAACL 2024(main conference)! Thanks to all collaborators！
 - (**2024/02/21**) We have updated our codebase to make it more readable and easier to use. We will continue to update the codebase and support more LLMs. Stay tuned!
 - (**2024/01/31**) 🔥🔥🔥 ReNeLLM is evaluated by the [Easyjailbreak](http://easyjailbreak.org) benchmark and exhibits strong competitiveness across various methods. Check it out!
