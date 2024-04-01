@@ -15,6 +15,9 @@ def main(args):
     assert(len(data) == 520)
 
     # data= data[:1] # for test
+    # single prompt jailbreak
+    if args.prompt is not None:
+        data = [args.prompt]
 
     operations = [shortenSentence, misrewriteSentence, changeOrder, addChar, languageMix, styleChange]
     scenarios = SCENARIOS
@@ -197,7 +200,10 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
+    # advbench
     parser.add_argument('--data_path', type=str, default='data/advbench/harmful_behaviors.csv')
+    # your single prompt
+    parser.add_argument('--prompt', type=str, default=None)
     parser.add_argument('--rewrite_model', type=str, default="gpt-3.5-turbo", choices=["gpt-3.5-turbo", "gpt-4"], help='model uesd for rewriting the prompt')
     parser.add_argument('--judge_model', type=str, default="gpt-3.5-turbo", choices=["gpt-3.5-turbo", "gpt-4"], help='model uesd for harmful classification')
     parser.add_argument('--attack_model', type=str, default="anthropic.claude-v2", choices=["anthropic.claude-v2", "gpt-4"], help='model to be attacked')
