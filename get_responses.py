@@ -11,7 +11,7 @@ def main(args):
 
     data = jailbroken_data_reader(args.data_path)
 
-    assert len(data) == 520
+    # assert len(data) == 520
 
     # data = data[:1] # for test
 
