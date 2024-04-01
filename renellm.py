@@ -215,8 +215,8 @@ if __name__ == "__main__":
     parser.add_argument('--retry_times', type=int, default=1000, help='retry times when exception occurs')
     parser.add_argument('--save_suffix', type=str, default='normal')
     parser.add_argument("--gpt_api_key", required=True, type=str, default=None)
-    parser.add_argument("--claude_api_key", required=True, type=str, default=None)
     parser.add_argument("--gpt_base_url", type=str, default=None)
+    parser.add_argument("--claude_api_key", required=True, type=str, default=None)
     parser.add_argument("--claude_base_url", type=str, default=None)
 
     args = parser.parse_args()
