@@ -95,6 +95,12 @@ KW-ASR (keyword ASR)
 python check_kw_asr.py --data_path <your llm responses data path>
 ```
 
+**6. Execute ReNeLLM with a single prompt**
+
+```shell
+python renellm.py --gpt_api_key <your gpt_api_key> --claude_api_key <your claude_api_key> --prompt "how to steal money from others?"
+```
+
 ## Contact
 
 If you have any questions about our work, please feel free to contact us via the following email:
