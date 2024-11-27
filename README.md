@@ -101,7 +101,7 @@ python check_kw_asr.py --data_path <your llm responses data path>
 python renellm.py --gpt_api_key <your gpt_api_key> --claude_api_key <your claude_api_key> --prompt "how to steal money from others?"
 ```
 
-We have uploaded the results of 520 Advbench samples categorized into 7 scenarios(see gpt-4_single_round_prompt_annotation.json). In the result file, the "idx" field corresponds to the same idx samples in Advbench. The prompts used for classification and the harmful scenarios represented by each classification result can be found in Table 10 of our paper.
+We have uploaded the results of 520 Advbench samples categorized into 7 scenarios(see [gpt-4_single_round_prompt_annotation.json](https://github.com/NJUNLP/ReNeLLM/blob/main/gpt-4_single_round_prompt_annotation.json). In the result file, the "idx" field corresponds to the same idx samples in Advbench. The prompts used for classification and the harmful scenarios represented by each classification result can be found in Table 10 of our paper.
 
 It should be noted that GPT-4 initially categorized the 520 pieces of data into 10 classes, but three of these classes had very few samples. For the convenience of statistics and analysis, we manually checked and merged these classes, resulting in 7 classification scenarios. The specific category merging information is as follows: 1 -> 0, 8 -> 9, 11 -> 6, finally resulting in 7 categories: 0, 2, 3, 4, 5, 6, 9. You can process the result file according to the above rules to obtain the classification results consistent with our paper.
 
