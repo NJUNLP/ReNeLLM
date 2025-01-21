@@ -15,7 +15,7 @@ The official implementation of our NAACL 2024 paper "[A Wolf in Sheep’s Clothi
 
 ## Updates
 
-- (**2024/05/28**) We have generated over 100,000 samples using ReNeLLM on the [AdvBench](https://github.com/llm-attacks/llm-attacks/blob/main/data/advbench/harmful_behaviors.csv) dataset that successfully jailbreak Claude-2. You can obtain them by sending your name, institution, country, and intended use to dingpeng@smail.nju.edu.cn.
+- (**2024/05/28**) We have generated over 100,000 samples using ReNeLLM on the [AdvBench](https://github.com/llm-attacks/llm-attacks/blob/main/data/advbench/harmful_behaviors.csv) dataset that successfully jailbreak Claude-2. You can obtain them here: 🤗[Huggingface dataset](https://huggingface.co/datasets/Deep1994/ReNeLLM-Jailbreak). Please ensure that you do not use our dataset for any illegal or harmful activities.
 - (**2024/03/27**) We have released the experimental results of ReNeLLM and other baselines. You can download them from the following link: [Experimental Results](https://drive.google.com/drive/folders/1Iyisp16Il0o3iAeaGtc-xLHwUVsExv7U?usp=sharing)
 - (**2024/03/14**) 🔥🔥🔥 ReNeLLM is acccepted by NAACL 2024(main conference)! Thanks to all collaborators！
 - (**2024/02/21**) We have updated our codebase to make it more readable and easier to use. We will continue to update the codebase and support more LLMs. Stay tuned!
